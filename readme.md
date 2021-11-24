@@ -1,4 +1,4 @@
-# Roohub Test Project
+# Roohub Backend Test Project
 
 ## Requirements
 
@@ -15,7 +15,7 @@
  - git clone `git@github.com:michaelpanco/roohub_backend.git`
  - go to the folder, and run `composer install`
  - copy .env.sample content and create a .env file
- - change all the database params corresponds to your database credentials from your .env file
+ - change all the database params corresponds to your database credentials to your .env file
 
  ## Database Data
 
