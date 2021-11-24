@@ -12,13 +12,14 @@
  ## Installation
 
  - Clone the Project
- - git clone git@github.com:michaelpanco/roohub_backend.git
- - go to the folder, and run composer install
-
+ - git clone `git@github.com:michaelpanco/roohub_backend.git`
+ - go to the folder, and run `composer install`
+ - copy .env.sample content and create a .env file
+ - change all the database params corresponds to your database credentials from your .env file
 
  ## Database Data
 
 Please run the commands below to put up the database table and seed all the sample data for testing
 
-- php artisan migrate
-- php artisan db:seed
+- `php artisan migrate`
+- `php artisan db:seed`
